@@ -130,9 +130,9 @@ brew install --cask visual-studio-code
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs
 
-# Install VS Code
-sudo snap install code --classic
-# Or: https://code.visualstudio.com/docs/setup/linux
+# Install VS Code (Debian/Ubuntu/Mint — download .deb from https://code.visualstudio.com)
+sudo apt install -y ./code_*.deb
+# Snap alternative (not available on Linux Mint): sudo snap install code --classic
 ```
 
 ---
